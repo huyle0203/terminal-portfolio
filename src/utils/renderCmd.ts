@@ -2,6 +2,7 @@ import About from "../components/commands/About";
 import Bio from "../components/commands/Bio";
 import Contact from "../components/commands/Contact";
 import Help from "../components/commands/Help";
+import Hobby from "../components/commands/Hobby";
 import NotFound from "../components/commands/NotFound";
 import Skills from "../components/commands/Skills";
 import { CmdHistory } from "../type";
@@ -24,6 +25,12 @@ function renderCmd(cmd: string): CmdHistory {
 			return {
 				cmd,
 				Component: Skills,
+				time: "",
+			};
+		case "hobby":
+			return {
+				cmd,
+				Component: Hobby,
 				time: "",
 			};
 		case "contact":

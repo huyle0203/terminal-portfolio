@@ -12,18 +12,19 @@ export default function About() {
 		setAnimate(true);
 	}, []);
 	return (
-		<div>
+		<div className="mt-2 mb-2 w-11/12 mx-auto">
 			<h1 className="text-2xl text-yellow-200 animate-reveal-0.5">Why?</h1>
 			<p className="text-lg mb-3 animate-reveal-0.5">
-				Terminal's Portfolio is a portfolio style that design to let you go
-				through the portfolio in the terminal way.
+				There are countless websites already to showcase yourself, right? <br/>
+				Behold, Terminal Portfolio is a portfolio style that lets you go
+				through the portfolio in a terminal way ~
 			</p>
 			<h1 className="text-2xl text-yellow-200 animate-reveal-0.7">
 				Tech stack
 			</h1>
 			<p className="text-lg animate-reveal-0.7">
-				This site is pure written with React and Tailwindcss only. For the
-				deployment, We deploy it on Netlify.
+				This site is purely written with React and Tailwindcss only. For the
+				deployment, it is deployed on Netlify.
 			</p>
 			<div className="flex gap-5 text-4xl">
 				{techs.map(({ Icon, color, duration }, index) => {

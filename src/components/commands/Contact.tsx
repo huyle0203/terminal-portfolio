@@ -4,13 +4,13 @@ export default function Contact() {
 	const contacts = [
 		{
 			text: "Phone number",
-			value: "+85595419150",
-			href: "tel:85595419150",
+			value: "+1 (714) 920 5515",
+			href: "tel:+17149205515",
 		},
 		{
 			text: "Email",
-			value: "sokhengchen@gmail.com",
-			href: "mailto:sokhengchen@gmail.com",
+			value: "itshuy.le@gmail.com",
+			href: "mailto:itshuy.le@gmail.com",
 		},
 	];
 	return (

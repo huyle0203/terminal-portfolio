@@ -1,9 +1,13 @@
 import ProgressBar from "../ProgressBar";
 import {
 	SiExpress,
+	SiJavascript,
+	SiJenkins,
+	SiNestjs,
 	SiNextdotjs,
+	SiPostgresql,
+	SiPython,
 	SiReact,
-	SiTailwindcss,
 	SiTypescript,
 } from "react-icons/si";
 
@@ -13,13 +17,13 @@ export default function Skills() {
 			Icon: SiReact,
 			barWidth: "w-90%",
 			percentageValue: "90%",
-			text: "React",
+			text: "React/ReactNative",
 		},
 		{
-			Icon: SiTailwindcss,
+			Icon: SiJavascript,
 			barWidth: "w-85%",
 			percentageValue: "85%",
-			text: "Tailwindcss",
+			text: "Java",
 		},
 		{
 			Icon: SiTypescript,
@@ -38,6 +42,30 @@ export default function Skills() {
 			barWidth: "w-85%",
 			percentageValue: "85%",
 			text: "Next.js",
+		},
+		{
+			Icon: SiNestjs,
+			barWidth: "w-85%",
+			percentageValue: "85%",
+			text: "NestJS",
+		},
+		{
+			Icon: SiPostgresql,
+			barWidth: "w-85%",
+			percentageValue: "85%",
+			text: "PostgreSQL",
+		},
+		{
+			Icon: SiPython,
+			barWidth: "w-85%",
+			percentageValue: "85%",
+			text: "Python",
+		},
+		{
+			Icon: SiJenkins,
+			barWidth: "w-80%",
+			percentageValue: "80%",
+			text: "Jenkins",
 		},
 	];
 

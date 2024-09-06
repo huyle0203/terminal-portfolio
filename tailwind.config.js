@@ -396,7 +396,9 @@ module.exports = {
 				"monospace",
 			],
 			josefin: ["Josefin Sans", "sans-serif"],
+			poppins: ["Poppins", "sans-serif"],
 			fascinate: ["Fascinate Inline", "cursive"],
+			jost: ["Jost", "sans-serif"],
 		},
 		fontSize: {
 			xs: ["0.75rem", { lineHeight: "1rem" }],
