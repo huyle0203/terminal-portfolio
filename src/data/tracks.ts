@@ -6,6 +6,24 @@ export const tracks = [
     thumbnail: '/DRTVS.jpeg',
   },
   {
+    title: 'come aliv3',
+    src: '/go7.mp3',
+    author: 'Knock2 & RL Grime',
+    thumbnail: '/CA.jpeg',
+  },
+  {
+    title: 'Euphoria Rush',
+    src: '/go8.mp3',
+    author: 'CHYL & Skybreak',
+    thumbnail: '/ER.jpg',
+  },
+  {
+    title: 'KGM (irl)',
+    src: '/go9.mp3',
+    author: 'ISOxo',
+    thumbnail: '/KGM.jpg',
+  },
+  {
     title: 'Dashstar (VIP Remix)',
     src: '/go2.mp3',
     author: 'Knock2',

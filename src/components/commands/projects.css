@@ -1,0 +1,12 @@
+/* Any additional custom styles can go here */
+.project-box {
+  aspect-ratio: 1 / 1;
+}
+.project-box img {
+  transition: transform 0.2s ease-in-out;
+}
+
+.project-box:hover img {
+  transform: scale(1.05);
+}
+
