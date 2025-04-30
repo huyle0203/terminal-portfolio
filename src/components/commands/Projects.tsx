@@ -54,10 +54,10 @@ const projects = [
     hoverColor: "#C699FE"
   },
   {
-    title: "Coming Soon!",
-    description: "Create X App",
-    href: "https://www.youtube.com/watch?v=xvFZjo5PgG0",
-    imageUrl: "/createX.jpeg",
+    title: "Write Track",
+    description: "Google doc of Keystroke tracking",
+    href: "https://github.com/smal8/writetrack",
+    imageUrl: "/writetrack.png",
     hoverColor: "#15DB79"
   },
 ];
